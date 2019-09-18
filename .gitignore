@@ -4,6 +4,8 @@ Banana_Linux/*
 unity-environment.log
 **/unity-environment.log
 
+.ipynb
+
 # Some default for a python project
 # Byte-compiled / optimized / DLL files
 __pycache__/

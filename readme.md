@@ -64,9 +64,19 @@ according to your OS and pass the path of the environment in the following jupyt
 
 #### How to train:
 `Train the agent.ipynb` is the notebook that does the training and save the trained model.
+You need to replace the pass of the simulator in one of the cells like bellow to point to where you 
+placed your simulator:
+```python
+env = UnityEnvironment(file_name="../Banana_Linux/Banana.x86_64", no_graphics=True)
+``` 
 
 #### How to run the trained model:
 `Load and Evaluate The Agent.ipynb` is loading the agent and run it in the environment with graphics.
+You need to replace the pass of the simulator in one of the cells like bellow to point to where you 
+placed your simulator:
+```python
+env = UnityEnvironment(file_name="../Banana_Linux/Banana.x86_64", no_graphics=False)
+``` 
 
 ### Report:
 You can find the report [here](report.md).

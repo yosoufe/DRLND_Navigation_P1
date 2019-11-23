@@ -11,7 +11,7 @@ The goal is to train an RL agent to receive the highest reward in the given envi
 
 ![Banana Environment](images_videos/environment.gif "Banana Environment")
 
-The environment that is used here is custom version of 
+The environment that is used here is a custom version of 
 [Banana environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector) of 
 [Unity ML-Agents Toolkit](https://unity3d.com/machine-learning). You can 
 find the links to download the environment from 
